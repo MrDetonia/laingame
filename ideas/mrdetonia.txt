@@ -1,0 +1,82 @@
+These are my personal views and expansions based on roniz's ideas so far.
+As such there is a lot of crossover, so I recommend you read roniz's too
+if you haven't done.
+
+MECHANICS
+Realtime strategy over IRC. Players submit their actions to an IRC bot.
+Many actions can be performed at will, but some actions will use up a turn.
+A turn can be defined as any period of time, likely ~24 hours so that the
+game can be played across the globe without leaving anybody at a disadvantage.
+At the end of each turn, the Major actions of every player are carried out by
+the bot, and a new world state is created.
+
+PLAYERS
+Each player may control a PMC. The general goal is to own the most successful
+PMC in the game universe, however the game shall be very open ended.
+PMCs can perform contracts for international parties (bots), or perform
+their own missions against other players' PMCs.
+Players are able to communicate openly in the game channel, or privately
+through IRC messaging.
+
+DIPLOMACY
+Roniz defined some aspects of diplomacy as variables, however I think the
+real diplomacy will be up to the individual players. Obvious things like
+player name, PMC name, PMC founding date can be displayed.
+Alliances may be officially declared, which may have some legal implications.
+An alliance may be required to fight together in 'war', and there may be
+an enforced penalty for leaving or betraying allies.
+Similarly, there should be a way to officially declare war against another
+PMC. This may allow for more extreme measures, that would not be available
+when not in a state of war (think of the Civilisation games).
+
+ECONOMY
+A pseudo currency, GDP is a measure of wealth. Growth defines overall profit
+or loss per turn for a particular PMC. There may also be raw materials used
+in construction/trading/contracts/etc.
+It may be possible to buy shares in another PMC, opening up a much wider and
+more complex economy meta-game, should players wish. This would also allow
+players to become majority shareholders, and effectively buy out an enemy
+PMC, claiming it for themselves. In cases such as these, perhaps they would
+have the option to merge the PMC into theirs, or own both at a time.
+Actual implementation for this may be tricky, so we'll see.
+
+MILITARY
+Infantry - Soldiers for military operations.
+ATVs - Support attacks and allow for faster response times.
+Airforce - Support for air strikes and even faster response times.
+SpecOps - Special operatives for specialised missions/actions.
+Vehicles - Vehicles for specialised missions/actions.
+Consumables - Amount of resources consumed (oil, ammo, food, etc.)
+
+MARKET
+Could include all raw materials, military resources.
+Direct trades with other players, or preset trades with bots.
+Access to stockmarket to buy and sell shares.
+
+ACTIONS
+Major - One Major action may be performed a turn.
+    Declare War - Officially declare war on a PMC
+    Request Alliance - Request an official alliance with a PMC
+
+Minor - Each minor action may be performed once a turn.
+    Missile Strike - Fire a missile at unit.
+    Airstrike - Launch an airstrike at unit.
+
+Passive - These actions may be performed at any time.
+    Buy - buy a commodity/resource
+    Sell - sell a commodity/resource
+    Show <x> - Various information screens (messaged to player)
+
+COMBAT SYSTEM
+Possibly have a number of units that can be controlled through minor actions.
+A simple case of "whoever has the most troops wins" seems unbalanced, and
+micro management should be allowed where possible.
+Potentially a basic MUD-like interface for managing troops? i.e. units
+could be moved to locations, and perform actions at those locations. Where
+locations are battlefields, rival PMCs, places of interest, etc.
+As an example, there could be a location with 5 Red PMC units, and Blue
+PMC move 6 units there. Blue declares an attack, and has a higher chance of
+winning due to having more soldiers.
+Attack chances can be based on many things, mainly number of units in area,
+strength of units, morale, unit hunger; we could go crazy with micro management
+here, so please stop me.
