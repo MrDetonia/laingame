@@ -1,0 +1,53 @@
+laingame
+
+MECHANICS
+The game is a realtime strategy game played over IRC.
+Users can submit actions for the game through an IRC bot.
+However some actions can only be done once every "turn".
+A turn is 24 hours long. At the change of a turn the
+server will calculate new variables for the game world.
+
+PLAYERS
+Each player will control a PMC which can fight in league
+with international superpowers (single player esque)
+OR againt other players (multi player esque). However because
+the game is played over IRC. Diplomacy and metagame provides
+another form of interaction between players.
+
+DIPLOMACY
+This is a range of metagame variables that will be displayed as a
+"description" for the players account. However some may have
+implemented gameplay mechanics later
+Name - the name of the PMC
+Leader - the name of the player
+Founded - the date the group was founded
+Alliance - players will be able to create alliances together
+
+ECONOMY
+The PMC economies will act like convential nation-state
+economies for conveniance. They will have GDP, Growth and Materials.
+GDP - A measure of the nations total wealth. The higher the GDP, the
+more stuff a player can produce at the same time.
+Growth - The rate of which GDP is increased every turn.
+Materials - A list of raw materials that can be used to construct things.
+	Oil
+	Iron
+
+MILITARY
+Infantry - List of soldiers
+Vehicles - List of vehicles
+	Tanks/ATV - used to support attacks
+	Airforce - used for airstrikes
+Oil Consumtion - amount of oil the army consumers per turn
+
+LIVE MARKET
+The players can trade infantry, vehicles and raw materials on a live market.
+
+ACTIONS
+A list of actions players can perform to play the game.
+Declare war - declare war on another players
+Launch Strike - fight a player that has declared war with
+Airstrike - perform an bombardment from airforce
+
+COMBAT SYSTEMS
+???
