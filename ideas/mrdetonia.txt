@@ -2,6 +2,13 @@ These are my personal views and expansions based on roniz's ideas so far.
 As such there is a lot of crossover, so I recommend you read roniz's too
 if you haven't done.
 
+SETTING
+Laingame will be set in a cyberpunk themed near future, where nation states
+have dissolved, and major powers have been replaced by faceless, formless
+organisations. As such, there will be no obvious concept of countries or
+nationalities; and all conflict will be between organisations. (in this case
+Private Military Corporations).
+
 MECHANICS
 Realtime strategy over IRC. Players submit their actions to an IRC bot.
 Many actions can be performed at will, but some actions will use up a turn.
