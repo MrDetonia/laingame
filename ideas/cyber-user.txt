@@ -1,0 +1,14 @@
+Development plan
+================
+
+1. Find/write methods to use IRC server:
+    1.0 Enter channel on server with specified name
+    1.1 Method to send message to specified server and channel, for example: send_message(server, room, msg)
+    1.2 Method to receive all messages, continually checking if there is any new message (probably in a loop)
+    1.3 Method to get all users in a specified room and filter everyone with specified prefix, returning a list
+    1.4 Method to parse messages to commands (what data serialization could be used?)
+2. Creating interacting bot instances: 
+    2.0 Bot A sends some dummy message when Bot B sends message with name + command 
+    2.1 Draft commands, like "request stats", "announce stats", "announce action", etc
+    2.2 Bot A sends serialized dummy data for Bot B request
+3. UI planning stage
